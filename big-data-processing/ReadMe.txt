@@ -1,5 +1,5 @@
 
-
+# Ethereum Analysis
 The goal of this project is to apply Big Data Processing techniques to analyse the full set of transactions which have occurred on the Ethereum network; from the first transactions in August 2015 till June 2019. I have created several Map/Reduce and Spark programs to perform multiple types of computation.
 
 

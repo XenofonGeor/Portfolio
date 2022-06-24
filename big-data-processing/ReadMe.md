@@ -86,7 +86,7 @@ The dataset I have used is a subset of the data available on BigQuery. The block
 |     6638810|0x3f5ce5fbfe3e9af...|0xdf2c7238198ad8b...|                  0| 75138|30000000000|     1541290720|
 
 ### DATASET SCHEMA - CONTRACTS
-address: Address of the contract
+**address:** Address of the contract
 
 **is_erc20:** Whether this contract is an ERC20 contract
 

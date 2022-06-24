@@ -168,7 +168,7 @@ address: Address of the contract
 ```
 ## Task
 
-Write a set of Map/Reduce (or Spark) jobs that process the given input and generate the data required to answer the following questions:
+Write a set of Map/Reduce or Spark jobs that process the given input and generate the data required to answer the following questions:
 
 ### PART A. TIME ANALYSIS
 Create a bar plot showing the number of transactions occurring every month between the start and end of the dataset.
@@ -202,6 +202,6 @@ The final part of the project is about exploring the data and performing some an
 
 **Gas Guzzlers:** For any transaction on Ethereum a user must supply gas. How has gas price changed over time? Have contracts become more complicated, requiring more gas, or less so? How does this correlate with your results seen within Part B.
 
-**Comparative Evaluation:** Reimplement Part B in Spark (if your original was MRJob, or vice versa). How does it run in comparison? Keep in mind that to get representative results you will have to run the job multiple times, and report median/average results. Can you explain the reason for these results? What framework seems more appropriate for this task?
+**Comparative Evaluation:** Reimplement Part B in Spark. How does it run in comparison? Keep in mind that to get representative results you will have to run the job multiple times, and report median/average results. Can you explain the reason for these results? What framework seems more appropriate for this task?
 
 

@@ -1,0 +1,13 @@
+CREATE TABLE `weather_data` (
+  `address` VARCHAR(256) DEFAULT NULL,
+  `latitude` FLOAT DEFAULT NULL,
+  `longitude` FLOAT DEFAULT NULL,
+  `dateNtime` DATETIME DEFAULT NULL,
+  `temp` FLOAT DEFAULT NULL,
+  `precip` FLOAT DEFAULT NULL,
+  `windSpeed` FLOAT DEFAULT NULL,
+  `windDir` FLOAT DEFAULT NULL,
+  `windGust` FLOAT DEFAULT NULL,
+  `pressure` FLOAT DEFAULT NULL,
+  `conditions` VARCHAR(256) DEFAULT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
